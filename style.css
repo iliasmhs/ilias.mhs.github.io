@@ -34,12 +34,11 @@ h2{
 
 h3{
     font-family: futura;
-    text-decoration: none;
     font-size: 20px;
     text-align: center;
     color: darkorange;
     margin-top: -100px;
-    
+    text-decoration-line: underline ;
 }
 
 .index h3{
@@ -71,4 +70,23 @@ body{
 a{
     text-decoration: none;
     color: currentColor;
+}
+
+.affiche{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.riso{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pochettes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.index{
+    animation: 3s ease-in;
 }
